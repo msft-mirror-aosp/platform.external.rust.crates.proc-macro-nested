@@ -1,0 +1,17 @@
+name: "proc-macro-nested"
+description:
+    "Support for nested proc-macro-hack invocations"
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/proc-macro-nested"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/dtolnay/proc-macro-hack"
+  }
+  version: "d29a20e44207f915f42e6d1668d2864b0152e5a8"
+  last_upgrade_date { year: 2020 month: 3 day: 17 }
+  license_type: NOTICE
+}
