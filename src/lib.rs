@@ -40,6 +40,9 @@
 
 #![no_std]
 
+// ANDROID: Use std to allow building as a dylib.
+extern crate std;
+
 // ANDROID: count.rs generated and put in the out subdirectory.
 // include!(concat!(env!("OUT_DIR"), "/count.rs"));
 include!("../out/count.rs");
