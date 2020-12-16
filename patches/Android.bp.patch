@@ -1,0 +1,15 @@
+diff --git a/Android.bp b/Android.bp
+index b9fd260..103ae9b 100644
+--- a/Android.bp
++++ b/Android.bp
+@@ -16,6 +16,10 @@ rust_library {
+         ":copy_proc-macro-nested_build_out",
+     ],
+     edition: "2015",
++    apex_available: [
++        "//apex_available:platform",
++        "com.android.virt",
++    ],
+ }
+ 
+ rust_defaults {
