@@ -43,7 +43,7 @@
 // ANDROID: Use std to allow building as a dylib.
 extern crate std;
 
-include!("../out/count.rs");  // ANDROID
+include!(concat!(env!("OUT_DIR"), "/count.rs"));
 
 #[doc(hidden)]
 #[macro_export]
