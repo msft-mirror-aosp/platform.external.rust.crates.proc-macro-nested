@@ -59,7 +59,7 @@ rust_library {
     edition: "2015",
     apex_available: [
         "//apex_available:platform",
-        "com.android.bluetooth",
+        "com.android.btservices",
         "com.android.resolv",
         "com.android.virt",
     ],
